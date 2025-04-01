@@ -1,0 +1,35 @@
+.nav-buttons {
+    position: fixed;
+    top: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: painted; /* Prevent blocking clicks on other elements */
+  }
+  
+  .nav-btn {
+    background: #003f6b;
+    color: white;
+    border: none;
+    padding: 5px 7px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 30%;
+    pointer-events: auto; /* Allow clicks */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .nav-btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;  
+    border-radius: 10px;
+  }
+  
+  .left {
+    margin-left: 10px;
+  }
+  
+  .right {
+    margin-right: 10px;
+  }
+  

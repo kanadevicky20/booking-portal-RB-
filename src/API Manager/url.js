@@ -1,0 +1,1 @@
+export const url="https://api.mockfly.dev/mocks/37556f3c-009e-4d25-a4ae-fff1bafb1c1d";

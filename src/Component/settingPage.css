@@ -1,0 +1,147 @@
+.container {
+  background-color: #dce8f2;
+    width: 100%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    /* padding-top: 100px; */
+  }
+
+  /* .container {
+    background-color: #dce8f2;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    padding: 20px; 
+} */
+
+  @media screen and (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 5px; /* Further reduce padding for very small screens */
+    }
+}
+ 
+  .settings-container h2 {
+    font-size: 24px;
+  }
+  
+  .settings-tabs {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .settings-tabs button {
+    background: none;
+    border: 1px solid #073c60;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .settings-tabs .active {
+    background: #073c60;
+    color: white;
+  }
+
+  
+  .active:hover {
+    background-color: #ffcc00;
+    color: black;
+  }
+  
+  .payment-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-details {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .input-group {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .email-section {
+    margin-top: 20px;
+  }
+  
+  .email-section label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .billing-history {
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+
+  }
+  
+  .billing-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .billing-history th,
+  .billing-history td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .billing-history th {
+    background: #073c60;
+    color: white;
+  }
+  
+  .billing-history .paid {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .billing-history .failed {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .settings-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .card-details {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,225 @@
+.tabs {
+  display: flex;
+  gap: 0px;
+  margin-top: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background: #073c60;
+  color: white;
+}
+
+
+.profile-container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    padding-top: 170px;    
+  }
+  
+  .profile-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #073c60;
+  }
+  
+  .profile-subtitle {
+    color: gray;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc; /* Adjust thickness and color as needed */
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .active-tab {
+    background: #073c60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .inactive-tab {
+    background: none;
+    border: none;
+    color: #073c60;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .inactive-tab:hover {
+    color: #ffcc00;
+  }
+  
+  .profile-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .profile-section {
+    flex: 1 1;
+    text-align: center;
+    font-weight: bold;
+    border-right: 2px solid black; /* Vertical line on the right */
+    padding-right: 15px; /* Adds some space between text and line */
+    height: 100%; /* Ensures full height */
+}
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    background: #ccc;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .placeholder:hover{
+    color:#425d5b;
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .upload-btn {
+    background: #073c60;
+    color: white;
+    padding: 8px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    border-radius: 5px;
+  }
+
+  .upload-btn:hover{
+  background-color: #ffcc00;
+  color: black;
+  }
+
+  /* Header (Navbar) */
+  .profile-header {
+    height: 40px;
+    width: 100%;
+    background:#0c2d48;
+    color:gray;
+    display: flex;  /* Ensures proper flex layout */
+    justify-content: space-between; /* Spreads elements across navbar */
+    align-items: center; /* Keeps items vertically aligned */
+    overflow: hidden; /* Prevents content overflow */
+    box-sizing: border-box; /* Ensures padding doesn’t cause overflow */
+    white-space: nowrap; /* Prevents wrapping */
+    cursor: default;
+    margin-bottom: 100px;
+    margin-top: 8px;
+}
+
+  
+  .profile-header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Navigation Links */
+  .profile-header-nav {
+    display: flex;
+    gap: 20px;
+    padding:25px 25px;
+    font-weight: bold;
+  }
+  
+  .profile-header-nav a{
+    margin-left:80px;
+  }
+  
+  .profile-header-nav a:hover {
+    color:white
+  }
+
+  
+  .delete-btn {
+    background: lightgray;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    font-weight: bold;
+  }
+  .delete-btn:hover{
+    background-color: #f80404;
+    color: black;
+    }
+  
+  .profile-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 4vw;
+  }
+  
+  .profile-info label {
+    font-weight: bold;
+  }
+  
+  .profile-info input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .edit-profile-btn {
+    background: #073c60;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #073c60;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 35%;
+    align-self: center;
+    margin-right: 100px;
+  }
+  
+  .edit-profile-btn:hover {
+    background-color: #ffcc00;
+    color: black;
+  }
+  
+  .profile-buttons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
